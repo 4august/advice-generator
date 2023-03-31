@@ -1,0 +1,44 @@
+body{
+    background:  hsl(218, 23%, 16%);
+    height: 97vh;
+    align-content: center;
+    display: grid;
+}
+#container{
+    width: 35%;
+    min-height: 200px;
+    text-align: center;
+    margin: auto;
+    background: hsl(217, 19%, 24%);
+    padding: 2%;
+    font-family: 'Manrope', sans-serif;
+    text-transform: uppercase;
+    position: relative;
+}
+#container  h4{
+    color: hsl(150, 100%, 66%);
+    letter-spacing: 2px;
+    margin: 0;
+    margin-bottom: 15px;
+}
+#container p{
+    color: gray;
+    font-size: 20px;
+    margin: 0;
+    margin-bottom: 15px;
+}
+#container div{
+    align-items: center;
+    justify-content: center;
+    padding: 5% 0;
+}
+#container button{
+    border-radius: 100%;
+    border: none;
+    width: 60px;
+    height: 60px;
+    background: hsl(150, 100%, 66%);
+    position: absolute;
+    bottom: calc(0% - 30px);
+    left: calc(50% - 30px);
+}
